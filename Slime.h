@@ -1,15 +1,10 @@
 #pragma once
-class FSlime
+#include "Character.h"
+
+class FSlime : public FCharacter
 {
 public:
-	//property, member variable, ¸â¹öÇÔ¼ö
-	imt HP;
-	int MP;
-
-	// method, member function
-	void Attack();
-	void Move();
-
+	
 
 private:
 
